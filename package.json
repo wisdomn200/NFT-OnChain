@@ -1,0 +1,27 @@
+{
+  "name": "nft-on-chain",
+  "version": "1.0.0",
+  "description": "An NFT game project build using Polygon L2, and IPFS for On-chain Metadata",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "ethereum-waffle": "^2.2.0",
+    "hardhat": "^2.15.0"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.0.8",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "^4.9.1",
+    "@types/sinon-chai": "^3.2.9",
+    "dotenv": "^16.1.4"
+  }
+}
